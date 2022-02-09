@@ -1,5 +1,10 @@
 import csv
 
+'''
+Vzor, ako ma vyzerat csv "ceny.csv" a "kody.csv".
+kody = [['2125566','100-200-1000B'], ['2125567', '100-200'], ['2125568', '100-200']]
+ceny = [['100-200-1000b  ', '15'], ['100-200', ' 26']]
+'''
 cena = []
 price = []
 tmp_price = []
