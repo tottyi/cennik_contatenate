@@ -45,7 +45,7 @@ for a in range(len(code)):      # Vycisti kody a partnumber
     tmp = ize,code[a][1].strip(" ")
     tmp_kod.append(tmp)
 
-for i, o in tmp_kod:            # porovne partnumbery a pripise ceny
+for i, o in tmp_kod:            # Porovna partnumbery a pripise ceny
     for j, k in tmp_price:
         if str(j) == str(o):
             g = i,j,k
